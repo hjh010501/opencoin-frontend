@@ -2,7 +2,7 @@ import axios from 'axios';
 import nprogress from 'nprogress'
 import 'nprogress/nprogress.css'
 
-export const BASE_URL = 'http://127.0.0.1:8000';
+export const BASE_URL = process.env.BACKEND_URL;
 
 export const isAuth = () => {
   const token = localStorage.getItem('token');

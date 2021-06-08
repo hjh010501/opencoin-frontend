@@ -2,7 +2,7 @@ import axios from 'axios';
 import nprogress from 'nprogress'
 import 'nprogress/nprogress.css'
 
-export const BASE_URL = "https://opencoin-frontend.vercel.app";
+export const BASE_URL = "https://open-coin-backend.herokuapp.com";
 
 export const isAuth = () => {
   const token = localStorage.getItem('token');
